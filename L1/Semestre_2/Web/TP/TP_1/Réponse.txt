@@ -1,0 +1,134 @@
+EXERCICE 1
+	
+	2) ideapad-slim-3
+	3) 192.168.65.179
+	4) 255.255.255.0
+	5) 127.0.0.1 => adresse de routeur
+	6) les destinations, la passerelle vers un autre réseau, son masque...
+	
+EXERCICE 2
+
+	1) Oui, 212.27.48.10
+	2)
+		google :
+ 1  _gateway (192.168.65.153)  10.069 ms  9.939 ms  9.848 ms
+ 2  255.0.0.0 (255.0.0.0)  203.332 ms  203.284 ms  203.234 ms
+ 3  * * *
+ 4  255.0.0.1 (255.0.0.1)  202.935 ms  202.886 ms  202.840 ms
+ 5  par10s40-in-f3.1e100.net (142.250.74.227)  202.789 ms  202.739 ms  202.694 ms
+ 6  10.100.26.65 (10.100.26.65)  202.506 ms  166.168 ms  166.013 ms
+ 7  ae31-760.ngelibor02.rbci.orange.net (81.253.184.194)  166.146 ms  203.719 ms  203.996 ms
+ 8  ae30-0.nclil202.rbci.orange.net (193.251.111.41)  203.892 ms  188.962 ms  188.811 ms
+ 9  ae41-0.nilil102.rbci.orange.net (193.252.100.109)  188.862 ms  188.807 ms  188.302 ms
+10  ae40-0.nilil101.rbci.orange.net (81.253.129.57)  188.303 ms  188.253 ms  188.205 ms
+11  * * *
+12  193.251.128.238 (193.251.128.238)  204.552 ms  204.477 ms  204.321 ms
+13  72.14.219.114 (72.14.219.114)  204.265 ms 209.85.172.162 (209.85.172.162)  204.058 ms 193.251.255.48 (193.251.255.48)  203.708 ms
+14  * * *
+15  216.239.48.42 (216.239.48.42)  203.778 ms 142.250.234.41 (142.250.234.41)  204.397 ms 66.249.94.82 (66.249.94.82)  205.431 ms
+16  par10s40-in-f3.1e100.net (142.250.74.227)  205.114 ms  205.060 ms 142.250.234.41 (142.250.234.41)  205.233 ms
+
+		yahoo :
+ 1  _gateway (192.168.65.153)  11.995 ms  11.902 ms  11.868 ms
+ 2  255.0.0.0 (255.0.0.0)  45.715 ms  51.638 ms  51.605 ms
+ 3  * * *
+ 4  255.0.0.1 (255.0.0.1)  51.424 ms  51.742 ms  51.711 ms
+ 5  182.22.25.124 (182.22.25.124)  52.114 ms  51.677 ms  52.049 ms
+ 6  10.100.26.65 (10.100.26.65)  51.990 ms  44.007 ms  61.551 ms
+ 7  ae31-760.ngelibor01.rbci.orange.net (81.253.184.186)  61.592 ms  40.479 ms  46.148 ms
+ 8  ae30-0.nclil201.rbci.orange.net (193.251.111.37)  46.157 ms  46.287 ms  46.256 ms
+ 9  ae41-0.nilil101.rbci.orange.net (81.253.129.29)  50.655 ms  46.162 ms  46.133 ms
+10  * * *
+11  193.251.241.157 (193.251.241.157)  43.363 ms  48.903 ms  46.233 ms
+12  * * *
+13  sea001bb00.IIJ.Net (58.138.83.170)  306.187 ms  306.121 ms sjc002bb00.IIJ.Net (58.138.83.178)  306.170 ms
+14  tky001bb00.IIJ.Net (58.138.88.81)  400.933 ms tky001bb00.IIJ.Net (58.138.88.129)  378.286 ms tky001bb01.IIJ.Net (58.138.88.133)  372.686 ms
+15  tky001ip57.IIJ.Net (58.138.102.110)  364.461 ms tky001ip57.IIJ.Net (58.138.102.102)  508.442 ms tky001ip57.IIJ.Net (58.138.100.22)  508.273 ms
+16  210.130.154.162 (210.130.154.162)  508.423 ms  409.454 ms  409.282 ms
+
+		nicta :	
+ 1  _gateway (192.168.65.153)  3.039 ms  2.942 ms  4.415 ms
+ 2  255.0.0.0 (255.0.0.0)  76.646 ms  83.411 ms  83.382 ms
+ 3  * * *
+ 4  255.0.0.1 (255.0.0.1)  83.216 ms  83.189 ms  83.162 ms
+ 5  go-vic-ext.lb.csiro.au (150.229.69.31)  83.203 ms  83.172 ms  83.146 ms
+ 6  10.100.26.65 (10.100.26.65)  85.377 ms  76.844 ms  76.743 ms
+ 7  ae31-760.ngelibor01.rbci.orange.net (81.253.184.186)  76.763 ms  31.786 ms  39.375 ms
+ 8  ae30-0.nclil201.rbci.orange.net (193.251.111.37)  39.309 ms  39.286 ms  39.263 ms
+ 9  ae41-0.nilil101.rbci.orange.net (81.253.129.29)  39.265 ms  39.136 ms  39.114 ms
+10  ae40-0.nilil102.rbci.orange.net (81.253.129.58)  48.830 ms  48.019 ms  47.961 ms
+11  * * *
+12  ae19.edge7.par1.sp.lumen.tech (4.68.73.61)  37.201 ms  43.977 ms  43.952 ms
+13  * * *
+14  AARNET-PTY.ear4.London1.Level3.net (217.163.113.74)  51.176 ms  41.704 ms  41.602 ms
+15  et-5-1-0.pe1.crlt.vic.aarnet.net.au (113.197.15.20)  375.315 ms  347.546 ms  340.705 ms
+16  138.44.64.9 (138.44.64.9)  340.615 ms  333.508 ms  333.439 ms
+
+	3)
+		www.nasa.org = ALLEMAGNE
+		www.amazon.com = ALLEMAGNE
+		www.southafrica.info = ALLEMAGNE
+		
+EXERCICE 3:
+
+	1) Oui
+	2) Universite d'Artois
+	3) Réseau qui relie les établissement d'enseignement supérieur entre eux en france
+	4) pas d'accès (5G)
+	5) déja pris par Nomio24, site actif
+	6) oui
+	7) OVH sas
+	8) .com
+	
+EXERCICE 4:
+
+	1) votre nom, adresse, adresse e-mail, âge, sexe, et même votre adresse IP
+	2) Les cookies
+	3) Insta
+	4) FB
+	
+Exercice 7:
+
+	1)
+	Site officiel du RC Lens
+https://www.rclens.fr
+
+
+
+Autres sites...
+
+http://www.lensfoot.com
+
+http://www.lensfoot.com
+
+https://www.madeinlens.com
+
+https://www.rclensois.fr
+
+Porchaines détections...
+https://detectionsfoot.fr/hauts-de-france/pas-de-calais/rc-lens
+
+	2)
+	3) https://www.pearson.fr/resources/titles/27440100331050/extras/2304_chapitre4.pdf
+	
+	4) https://perso.univ-rennes1.fr/virginie.sans/l2pw/UElibre_Internet.ppt#:~:text=XHTML%201.0%2C%20est%20une%20reformulation,un%20ensemble%20raisonnable%20de%20r%C3%A8gles.
+	
+	5)https://www.futura-sciences.com/tech/questions-reponses/informatique-fonctionne-ordinateur-1614/
+	https://codeur-pro.fr/comment-fonctionne-un-ordinateur/
+	
+	6) 716 résultats
+	8) ok
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
